@@ -19,11 +19,11 @@ import imageSprStoryboarderDark from 'assets/spr-storyboarder-dark.png';
 import imageSprStoryboarderLightLarge from 'assets/spr-storyboarder-light-large.png';
 import imageSprStoryboarderLightPlaceholder from 'assets/spr-storyboarder-light-placeholder.png';
 import imageSprStoryboarderLight from 'assets/spr-storyboarder-light.png';
+import { Button } from 'components/Button';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
 import { Meta } from 'components/Meta';
 import { ThemeProvider, useTheme } from 'components/ThemeProvider';
-import { Button } from 'components/Button';
 import {
   ProjectBackground,
   ProjectContainer,
@@ -44,7 +44,7 @@ import styles from './Experience.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Many years of work';
+const title = 'Years of experience';
 const description =
   'I love to learning new features and frameworks and apply to the next generation website designs. In the right side you can see some areas thats I already worked at';
 const roles = [
@@ -157,7 +157,7 @@ export const Experience = () => {
               <ProjectSectionHeading>Encouraging adaptivity</ProjectSectionHeading>
               <ProjectSectionText>
               I have a lot of experience with project and team management tools like JIRA, Trello, GitHub, Notion.
-              In addition to having experience with various communication channels such as Slack, Skype, Microsoft Teams, Google Chats and etc.
+              In addition to having experience with various communication channels such as Slack, Skype, Microsoft Teams, Google Chats and more.
               </ProjectSectionText>
             </ProjectTextRow>
             <Image

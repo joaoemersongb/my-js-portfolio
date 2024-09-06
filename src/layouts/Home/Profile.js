@@ -50,10 +50,10 @@ const ProfileText = ({
 );
 
 export const Profile = ({ id, visible, sectionRef }) => {
-  const defaultText1 = `Graduado em Engenharia de Software pela Universidade Federal do Ceará, UFC, Pós-graduado em Gestão da Inovação e Data Science. Com varios anos de experiência em empresas de inovação e transformação digital. 
-  Com experiência em análise e desenvolvimento de sistemas em diversos projetos e clientes nas áreas de: 
-  Inovação, Logística, Telecomunicações, Saúde, Farmacêutica e Desenvolvimento de Software.
-  Sou professor, mentor pela Télos e atualmente atuo como Desenvolvedor Frontend Sênior no `;
+  const defaultText1 = `Graduado em Engenharia de Software pela Universidade Federal do Ceará, UFC, Pós-graduado em Gestão da Inovação e Data Science. Possuo anos de experiência em empresas de inovação e transformação digital tendo 
+  experiência em análise e desenvolvimento de sistemas em diversos projetos e clientes nas áreas de: 
+  Inovação, Logística, Telecomunicações, Saúde, Farmacêutica, Beleza, Segurança e Interesses Governamentais.
+  Sou professor, mentor pela Télos e atualmente atuo como Engenheiro Especialista Sênior no `;
 
   const defaultText2 = `, realizando atividades que envolvem consultoria em arquitetura, 
   engenharia de software, desenvolvimento front-end, entre outras. Em meus trabalhos anteriores trabalhei em um projeto com ONU, SACRE, 
@@ -71,10 +71,10 @@ export const Profile = ({ id, visible, sectionRef }) => {
   
   Certificações: D.E.P.C® (DevOps Professional), S.F.C® (Scrum Fundamentals), S.F.P.C® (Scrum Professional).`;
 
-  const ENText1 = `Graduated in Software Engineering from the Federal University of Ceará, UFC, Post-graduate in Innovation Management and Data Science. With many years of experience in innovation and digital transformation companies.
-  With experience in systems analysis and development in several projects and clients in the areas of:
-  Innovation, Logistics, Telecommunications, Health, Pharmaceuticals and Software Development.
-  Im professor, mentor at Télos and I currently work as a Senior Frontend Developer at `;
+  const ENText1 = `Graduated in Software Engineering from the Federal University of Ceará, UFC, Post-graduate in Innovation Management and Data Science. With many years of experience in innovation and digital transformation companies
+  with experience in systems analysis and development in several projects and clients in the areas of:
+  Innovation, Logistics, Telecommunications, Health, Pharmaceuticals, Beauty, Security and Government Interests.
+  Im professor, mentor at Télos and currently work as a Specialist Senior Engineer at `;
 
   const ENText2 = `, performing activities that involve consulting in architecture,
   software engineering, front-end development, among others. In my previous jobs I worked on a project with the UN, SACRE,
