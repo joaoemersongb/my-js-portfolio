@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import GothamBook from 'assets/fonts/gotham-book.woff2';
 import GothamMedium from 'assets/fonts/gotham-medium.woff2';
 import { fontStyles, tokenStyles } from 'components/ThemeProvider';
@@ -21,6 +22,7 @@ export default function Document() {
         <style dangerouslySetInnerHTML={{ __html: tokenStyles }} />
       </Head>
       <body data-theme="dark" tabIndex={-1}>
+        <Analytics />
         <script
           dangerouslySetInnerHTML={{
             __html: `
