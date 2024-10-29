@@ -20,9 +20,9 @@ export default function Document() {
         <link rel="preload" href={GothamBook} as="font" crossOrigin="true" />
         <style dangerouslySetInnerHTML={{ __html: fontStyles }} />
         <style dangerouslySetInnerHTML={{ __html: tokenStyles }} />
+        <Analytics />
       </Head>
       <body data-theme="dark" tabIndex={-1}>
-        <Analytics />
         <script
           dangerouslySetInnerHTML={{
             __html: `
