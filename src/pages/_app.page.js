@@ -1,6 +1,4 @@
-import 'layouts/App/reset.css';
-import 'layouts/App/global.css';
-
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from 'components/Navbar';
 import { ThemeProvider } from 'components/ThemeProvider';
 import { tokens } from 'components/ThemeProvider/theme';
@@ -8,7 +6,9 @@ import { VisuallyHidden } from 'components/VisuallyHidden';
 import { AnimatePresence, LazyMotion, domAnimation, m } from 'framer-motion';
 import { useFoucFix, useLocalStorage } from 'hooks';
 import styles from 'layouts/App/App.module.css';
+import 'layouts/App/global.css';
 import { initialState, reducer } from 'layouts/App/reducer';
+import 'layouts/App/reset.css';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { Fragment, createContext, useEffect, useReducer } from 'react';
@@ -49,6 +49,7 @@ const App = ({ Component, pageProps }) => {
             </VisuallyHidden>
             <Navbar />
             <main className={styles.app} tabIndex={-1} id="MainContent">
+              <Analytics />
               <AnimatePresence exitBeforeEnter>
                 <m.div
                   key={route}

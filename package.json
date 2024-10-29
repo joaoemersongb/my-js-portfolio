@@ -1,10 +1,8 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://hamishw.com",
   "description": "Portfolio site for João Emerson",
-  "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "João Emerson <hello@hamishw.com>",
+  "author": "João Emerson",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",

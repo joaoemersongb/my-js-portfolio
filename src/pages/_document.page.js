@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
 import GothamBook from 'assets/fonts/gotham-book.woff2';
 import GothamMedium from 'assets/fonts/gotham-medium.woff2';
 import { fontStyles, tokenStyles } from 'components/ThemeProvider';
@@ -20,7 +19,6 @@ export default function Document() {
         <link rel="preload" href={GothamBook} as="font" crossOrigin="true" />
         <style dangerouslySetInnerHTML={{ __html: fontStyles }} />
         <style dangerouslySetInnerHTML={{ __html: tokenStyles }} />
-        <Analytics />
       </Head>
       <body data-theme="dark" tabIndex={-1}>
         <script
